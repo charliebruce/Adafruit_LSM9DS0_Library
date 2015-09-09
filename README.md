@@ -1,6 +1,11 @@
 Adafruit LSM9DS0 Library
 ========================
 
+This library has been modified to remove any references to SPI, allowing it to build without errors on a Due. A more sensible approach might have been to rewrite the code to support SPI in the Due, but this was done for speed.
+
+
+
+
 This is a library for the Adafruit triple-axis accelerometer/magnetometer/gyroscope LSM9DS0 breakouts
 
 Designed specifically to work with the Adafruit LSM9DS0 Breakout & Flora Sensor
